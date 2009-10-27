@@ -6,5 +6,6 @@ MANIFEST.SKIP
 README
 t/compile.t
 t/minify.t
+t/signature.t
 META.yml                                 Module meta-data (added by MakeMaker)
 SIGNATURE                                Public-key signature (added by MakeMaker)
