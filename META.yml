@@ -1,21 +1,15 @@
 --- #YAML:1.0
-name:               Template-Plugin-Filter-Minify-CSS-XS
-version:            0.92
-abstract:           CSS::Minifier::XS filter for Template Toolkit
-author:
+name:                Template-Plugin-Filter-Minify-CSS-XS
+version:             0.93
+abstract:            CSS::Minifier::XS filter for Template Toolkit
+license:             ~
+author:              
     - Michael Schout <mschout@cpan.org>
-license:            unknown
-distribution_type:  module
-configure_requires:
-    ExtUtils::MakeMaker:  0
-requires:
-    CSS::Minifier::XS:  0
-    Template:           2
-no_index:
-    directory:
-        - t
-        - inc
-generated_by:       ExtUtils::MakeMaker version 6.48
+generated_by:        ExtUtils::MakeMaker version 6.42
+distribution_type:   module
+requires:     
+    CSS::Minifier::XS:             0
+    Template:                      2
 meta-spec:
-    url:      http://module-build.sourceforge.net/META-spec-v1.4.html
-    version:  1.4
+    url:     http://module-build.sourceforge.net/META-spec-v1.3.html
+    version: 1.3
