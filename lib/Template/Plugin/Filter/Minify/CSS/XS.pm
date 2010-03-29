@@ -1,11 +1,12 @@
 package Template::Plugin::Filter::Minify::CSS::XS;
+our $VERSION = '0.94';
+
+# ABSTRACT: CSS::Minifier::XS filter for Template Toolkit
 
 use 5.006;
 use strict;
 use base 'Template::Plugin::Filter';
 use CSS::Minifier::XS;
-
-our $VERSION = '0.93';
 
 sub init {
     my $self = shift;
@@ -25,9 +26,17 @@ sub filter {
 
 1;
 
+
+
+=pod
+
 =head1 NAME
 
 Template::Plugin::Filter::Minify::CSS::XS - CSS::Minifier::XS filter for Template Toolkit
+
+=head1 VERSION
+
+version 0.94
 
 =head1 SYNOPSIS
 
@@ -45,6 +54,24 @@ Template::Plugin::Filter::Minify::CSS::XS - CSS::Minifier::XS filter for Templat
 This module is a Template Toolkit filter, which uses CSS::Minifier::XS to minify
 css code from filtered content during template processing.
 
+=for Pod::Coverage init
+filter
+
+=head1 SEE ALSO
+
+L<CSS::Minifer::XS>, L<Template::Plugin::Filter>, L<Template>
+
+=head1 AUTHOR
+
+  Michael Schout <mschout@cpan.org>
+
+=head1 COPYRIGHT AND LICENSE
+
+This software is copyright (c) 2009 by Michael Schout.
+
+This is free software; you can redistribute it and/or modify it under
+the same terms as the Perl 5 programming language system itself.
+
 =head1 SOURCE
 
 You can contribute or fork this project via github:
@@ -55,35 +82,11 @@ http://github.com/mschout/template-plugin-filter-minify-css-xs
 
 =head1 BUGS
 
-Please report any bugs or feature requests to
-bug-template-plugin-filter-minify-css-xs@rt.cpan.org, or through the web
-interface at http://rt.cpan.org/
+Please report any bugs or feature requests to bug-template-plugin-filter-minify-css-xs@rt.cpan.org or through the web interface at:
+ http://rt.cpan.org/Public/Dist/Display.html?Name=Template-Plugin-Filter-Minify-CSS-XS
 
-=head1 AUTHOR
+=cut
 
-Michael Schout E<lt>mschout@cpan.orgE<gt>
 
-=head1 COPYRIGHT & LICENSE
-
-Copyright 2009 Michael Schout.
-
-This program is free software; you can redistribute it and/or
-modify it under the terms of either:
-
-=over 4
-
-=item *
-
-the GNU General Public License as published by the Free Software Foundation;
-either version 1, or (at your option) any later version, or
-
-=item *
-
-the Artistic License version 2.0.
-
-=back
-
-=head1 SEE ALSO
-
-L<CSS::Minifer::XS>, L<Template::Plugin::Filter>, L<Template>
+__END__
 

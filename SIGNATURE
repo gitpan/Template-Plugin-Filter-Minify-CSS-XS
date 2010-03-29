@@ -1,5 +1,5 @@
 This file contains message digests of all files listed in MANIFEST,
-signed via the Module::Signature module, version 0.55.
+signed via the Module::Signature module, version 0.61.
 
 To verify the content in this distribution, first make sure you have
 Module::Signature installed, then type:
@@ -14,20 +14,24 @@ not run its Makefile.PL or Build.PL.
 -----BEGIN PGP SIGNED MESSAGE-----
 Hash: SHA1
 
-SHA1 1d018043f54d966ab436d89ba29fd9e1456bc1e1 Changes
-SHA1 ffb9bdffe78d752eef4883a923bb47b5946b7d64 MANIFEST
-SHA1 417354a28da0ca06ef13e91a2bdfb614e2b7b5cb MANIFEST.SKIP
-SHA1 2597875ca87589b78791a73b5e51569bad46ebf8 META.yml
-SHA1 c8a38415d69565582403f20edf799900ab867a1b Makefile.PL
-SHA1 b148230b660bdf4f210148ed162c33997b4222df README
-SHA1 8469de3f8b7fccc63c137813536d9612d55c7524 lib/Template/Plugin/Filter/Minify/CSS/XS.pm
+SHA1 4733945155240f7afac5b252b53fc2872a4bbc14 Changes
+SHA1 d5e967dfbbc82826f511d98e3301b73ad959494d LICENSE
+SHA1 19e6201928a7cb5842dac780d7e44c26377cb7ad MANIFEST
+SHA1 8f9bd18c35249a18f0ec902e397b4bb05aca5bed META.yml
+SHA1 7f6f15dd83d8d11697a36a58ad7fe1cc992305a2 Makefile.PL
+SHA1 f8e765a9be62ddbe221b9aa288156d7f7cc724bd README
+SHA1 0fc3cad9d5bb7a20308bd6970b61d5c0e2ae53ef dist.ini
+SHA1 334dafe991a66aaa584c48541b5332ee86634270 lib/Template/Plugin/Filter/Minify/CSS/XS.pm
 SHA1 ea144be196e5c80222d9fbd8a16242499d76d014 t/compile.t
 SHA1 1a9a59e024999761c5903746eb667568789dc244 t/minify.t
+SHA1 5da741e4cabd859cbd6a3f2ad1c9901b892da4d0 t/release-pod-coverage.t
+SHA1 946206d2ce9fba0e8fda1d429e01245fb8934622 t/release-pod-syntax.t
 SHA1 61cea839dd94aaaeb301ccac9b83cde4c5c91b42 t/signature.t
+SHA1 dc5577d84d6015589321fed7ab730d17a80d4410 weaver.ini
 -----BEGIN PGP SIGNATURE-----
 Version: GnuPG v1.4.9 (GNU/Linux)
 
-iEYEARECAAYFAkr9vXsACgkQ+CqvSzp9LOzkZwCfeGU1mHCcVVUL0rsZFSzirPuw
-UZYAni0Zfi/yey2WfguT/6cvJv71d7Ev
-=3V/8
+iEYEARECAAYFAkuxIrwACgkQ+CqvSzp9LOzVUgCeMp2thy4uEcDymz/qliT4SSI6
+y94AoKURdT7GVU976lyAuABCOsZPZ/Lx
+=h5VZ
 -----END PGP SIGNATURE-----
