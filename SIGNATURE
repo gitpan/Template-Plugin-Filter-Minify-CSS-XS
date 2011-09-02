@@ -1,5 +1,5 @@
 This file contains message digests of all files listed in MANIFEST,
-signed via the Module::Signature module, version 0.61.
+signed via the Module::Signature module, version 0.68.
 
 To verify the content in this distribution, first make sure you have
 Module::Signature installed, then type:
@@ -14,24 +14,23 @@ not run its Makefile.PL or Build.PL.
 -----BEGIN PGP SIGNED MESSAGE-----
 Hash: SHA1
 
-SHA1 4733945155240f7afac5b252b53fc2872a4bbc14 Changes
-SHA1 d5e967dfbbc82826f511d98e3301b73ad959494d LICENSE
-SHA1 19e6201928a7cb5842dac780d7e44c26377cb7ad MANIFEST
-SHA1 8f9bd18c35249a18f0ec902e397b4bb05aca5bed META.yml
-SHA1 7f6f15dd83d8d11697a36a58ad7fe1cc992305a2 Makefile.PL
-SHA1 f8e765a9be62ddbe221b9aa288156d7f7cc724bd README
-SHA1 0fc3cad9d5bb7a20308bd6970b61d5c0e2ae53ef dist.ini
-SHA1 334dafe991a66aaa584c48541b5332ee86634270 lib/Template/Plugin/Filter/Minify/CSS/XS.pm
+SHA1 a79ca81ada7402a0d009284821babe9936a490be Changes
+SHA1 752fcdf57b08955f67e825d9a2a3b935c5739cd7 LICENSE
+SHA1 2882436658a3489c664f41c243662e0687c1ebb6 MANIFEST
+SHA1 ee050199bb77fc1cce99a13454e7b054a46759a1 META.yml
+SHA1 5fc7710431efbe728e2d5c8ddae421fc640fd94a Makefile.PL
+SHA1 a91e71d557393ce3d0ad920c12e09358a0362f84 README
+SHA1 317f9f0fef1fff405293331b5f8e712e62221f77 dist.ini
+SHA1 edad872f3f8dc0f13c40f56d3bc7b741260024ab lib/Template/Plugin/Filter/Minify/CSS/XS.pm
 SHA1 ea144be196e5c80222d9fbd8a16242499d76d014 t/compile.t
 SHA1 1a9a59e024999761c5903746eb667568789dc244 t/minify.t
-SHA1 5da741e4cabd859cbd6a3f2ad1c9901b892da4d0 t/release-pod-coverage.t
-SHA1 946206d2ce9fba0e8fda1d429e01245fb8934622 t/release-pod-syntax.t
+SHA1 9433c240fe590bc404ab68ff63984df763e347ed t/release-pod-coverage.t
+SHA1 b30cbdfaf935017c4568c0c91b242438cb87786e t/release-pod-syntax.t
 SHA1 61cea839dd94aaaeb301ccac9b83cde4c5c91b42 t/signature.t
-SHA1 dc5577d84d6015589321fed7ab730d17a80d4410 weaver.ini
 -----BEGIN PGP SIGNATURE-----
-Version: GnuPG v1.4.9 (GNU/Linux)
+Version: GnuPG v1.4.11 (GNU/Linux)
 
-iEYEARECAAYFAkuxIrwACgkQ+CqvSzp9LOzVUgCeMp2thy4uEcDymz/qliT4SSI6
-y94AoKURdT7GVU976lyAuABCOsZPZ/Lx
-=h5VZ
+iEYEARECAAYFAk5hVa8ACgkQ+CqvSzp9LOxYpACfYCcxCJcGICQ9t2GPH8jlpadz
+MtMAniWdUtMuLDTaeJ8mb3zNGDROak11
+=eYHQ
 -----END PGP SIGNATURE-----

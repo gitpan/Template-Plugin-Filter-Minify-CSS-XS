@@ -12,4 +12,3 @@ t/minify.t
 t/release-pod-coverage.t
 t/release-pod-syntax.t
 t/signature.t
-weaver.ini

@@ -1,5 +1,7 @@
 package Template::Plugin::Filter::Minify::CSS::XS;
-our $VERSION = '0.94';
+BEGIN {
+  $Template::Plugin::Filter::Minify::CSS::XS::VERSION = '0.95';
+}
 
 # ABSTRACT: CSS::Minifier::XS filter for Template Toolkit
 
@@ -36,7 +38,7 @@ Template::Plugin::Filter::Minify::CSS::XS - CSS::Minifier::XS filter for Templat
 
 =head1 VERSION
 
-version 0.94
+version 0.95
 
 =head1 SYNOPSIS
 
@@ -59,11 +61,21 @@ filter
 
 =head1 SEE ALSO
 
-L<CSS::Minifer::XS>, L<Template::Plugin::Filter>, L<Template>
+L<CSS::Minifier::XS>, L<Template::Plugin::Filter>, L<Template>
+
+=head1 SOURCE
+
+The development version is on github at L<http://github.com/mschout/template-plugin-filter-minify-css-xs>
+and may be cloned from L<git://github.com/mschout/template-plugin-filter-minify-css-xs.git>
+
+=head1 BUGS
+
+Please report any bugs or feature requests to bug-template-plugin-filter-minify-css-xs@rt.cpan.org or through the web interface at:
+ http://rt.cpan.org/Public/Dist/Display.html?Name=Template-Plugin-Filter-Minify-CSS-XS
 
 =head1 AUTHOR
 
-  Michael Schout <mschout@cpan.org>
+Michael Schout <mschout@cpan.org>
 
 =head1 COPYRIGHT AND LICENSE
 
@@ -71,19 +83,6 @@ This software is copyright (c) 2009 by Michael Schout.
 
 This is free software; you can redistribute it and/or modify it under
 the same terms as the Perl 5 programming language system itself.
-
-=head1 SOURCE
-
-You can contribute or fork this project via github:
-
-http://github.com/mschout/template-plugin-filter-minify-css-xs
-
- git clone git://github.com/mschout/template-plugin-filter-minify-css-xs.git
-
-=head1 BUGS
-
-Please report any bugs or feature requests to bug-template-plugin-filter-minify-css-xs@rt.cpan.org or through the web interface at:
- http://rt.cpan.org/Public/Dist/Display.html?Name=Template-Plugin-Filter-Minify-CSS-XS
 
 =cut
 
